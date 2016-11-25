@@ -96,27 +96,20 @@ button:hover {
     font-size: 70%;
 }
 .collection-item-outer {
-    display: inline-block;
+    /*display: inline-block;*/
     float: left;
     padding-left: 5px;
     padding-right: 5px;
-    width: 33.33%;
+    width: 100%;
     box-sizing: border-box;
 }
-.collections > div:first-child {
-    padding-left: 0;
-    padding-right: 5px;
-}
-.collections > div:last-child {
-    padding-right: 0;
-    padding-left: 5px;
-}
+
 .collection-item {
     border: 1px solid #959595;
 }
 .collection-item img {
     /*width: 100%*/
-    width: 100px;
+    width: 500px;
 }
 .collection-text {
     padding: 0 20px 20px 20px;
@@ -128,7 +121,7 @@ button:hover {
     text-overflow: ellipsis;
 }
 .collection-text p {
-    height: 80px;
+    /*height: 80px;*/
     overflow: hidden;
 }
 .collection-text button {

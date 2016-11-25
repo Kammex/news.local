@@ -28,25 +28,7 @@
 </nav>
 <!-- /NAVIGATION -->
 <!-- MAIN SECTION-->
-<main>
-    <div class="container">
-        <h2 class="collection-title">News Collection <small>Visualize Quality</small></h2>
-        <div class="collections">
-            <?php foreach ($items as $item): ?>
-
-            <div class="collection-item-outer">
-                <div class="collection-item">
-                    <div class="collection-text">
-                        <h3><?php echo $item['title']?></h3>
-                        <p><?php echo $item['path']?></p>
-                        <small><?php echo $item['art_time_add']?></small>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach;?>
-        </div>
-    </div>
-</main>
+<?php include __DIR__ . '/form.php' ?>
 <!-- /MAIN SECTION-->
 <!-- FOOTER -->
 <footer class="footer">
