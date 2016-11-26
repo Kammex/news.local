@@ -121,8 +121,11 @@ button:hover {
     text-overflow: ellipsis;
 }
 .collection-text p {
-    /*height: 80px;*/
+    height: 95px;
     overflow: hidden;
+}
+.collection-text small {
+    float: right;
 }
 .collection-text button {
     padding: 10px;

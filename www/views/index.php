@@ -3,7 +3,7 @@
 <head>
     <title>News today</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
 <!-- HEADER -->
@@ -37,8 +37,10 @@
             <div class="collection-item-outer">
                 <div class="collection-item">
                     <div class="collection-text">
-                        <h3><?php echo $item['title']?></h3>
-                        <p><?php echo $item['path']?></p>
+                        <a href="article.php?art=<?php echo $item['id']?>">
+                            <h3><?php echo $item['title']?></h3>
+                        </a>
+                        <p><?php echo $item['text']?></p>
                         <small><?php echo $item['art_time_add']?></small>
                     </div>
                 </div>
